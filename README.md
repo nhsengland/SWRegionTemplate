@@ -1,21 +1,32 @@
-# {PROJECT NAME}
-## NHS England South West Intelligence and Insights
+# {REPORT NAME}
+## NHS England South West Insights and Intelligence
 
-### About the Project
+### About the Reporrt
 
 {ADD EXPERIMENTAL STATUS BADGE IF PROJECT IS IN DEVELOPMENT}
 [![status: experimental](https://github.com/GIScience/badges/raw/master/status/experimental.svg)](https://github.com/GIScience/badges#experimental)
 
-This repository holds code for the {PROJECT NAME} {SHORT DESCRIPTION}
+This repository holds code for the {REPORT NAME} {SHORT DESCRIPTION}
 
 _**Note:** Only public or fake data are shared in this repository._
 
-### Project Stucture
+### Report Overview
 
-- The main code is found in the root of the repository (see Usage below for more information)
-- The accompanying [report](./reports/report.pdf) is also available in the `reports` folder
-- More information about the code usage can be found in the [model card](./model_card.md)
-- {OTHER REPO STRUCTURE}
+**Status:** Active / Retired / In development
+
+**Subject area:** Specific subject area
+
+**Purpose:** Decribe what the report does
+
+**Audience:** Decribe who the report is for
+
+**Frequency:** How often is the report refreshed
+
+**Output type:** Slides, powerBI, tableau, markdown, excel, PDF, etc
+
+**Distribution:** How is the report shared
+
+**Quality assurance:** When have code review and output QA checks been undertaken
 
 ### Built With
 
@@ -49,16 +60,10 @@ To clone the repo:
 #### Outputs
 {LIST AND DESCRIPTION OF OUTPUTS}
 
-{NOTES ON REPRODUCIBILITY OF RESULTS}
-
 #### Datasets
 {DESCRIPTION AND LINKS TO DATASETS}
 
 {LINK TO FAKE DATA TO SUPPORT INITAIL CODE RUNS}
-
-### Roadmap
-
-See the {LINK TO REPO ISSUES} for a list of proposed features (and known issues).
 
 ### Contributing
 
