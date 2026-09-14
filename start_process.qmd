@@ -1,0 +1,40 @@
+---
+title: "Starting the Analytical Process"
+editor: visual
+---
+
+## Mapping Current Process
+
+### Identify if there is a process already in place.
+
+When a new request is received, the first step is to determine whether similar work has been completed previously. This enables us to use existing methodologies, adapt established approaches, and avoid unnecessary duplication of effort. There are three main sources to check for prior work:
+
+- Within the South West Insight & Intelligence (I&I) team
+
+- Across other regions and national analytical teams
+
+- Within academia or industry
+
+Consideration should include if this is an addition to an existing product, if it is a supplement to an existing piece of work or if it can be used to replace or retire and existing product. The aim here is to avoid creating unnecessary products and ensure that we do not duplicate work.
+
+### Within the South West I&I team
+
+If you are not the subject matter expert, it is important that you reach out to the SME for the area to advise of the request, and to agree who leads on it. If it is unclear who leads on it please raise with Senior Leadership Team (SLT).
+
+Before starting new work, review existing outputs to identify any relevant Standard Operating Procedures (SOPs), code, or analytical products. The two primary sources are:
+
+- South West Insight and Intelligence SharePoint site. This should contain any existing SOPs for processes or work, and it may contain outputs created.
+
+- GitHub repository – <https://github.com/orgs/nhsengland/teams/south-west-pat>
+
+If nothing relevant is found, use the I&I Teams chat to ask colleagues whether similar work has been undertaken previously. They may have ideas or suggestions of overlapping work which could be helpful.
+
+### Work from another region and national team
+
+To find out if another region or national team have completed a request, please discuss this though the relevant matrix call for the area: A link to the matrix call schedule can be found here: [I&I Team Meeting Schedule 2526.xlsx](https://github.com/orgs/nhsengland/teams/south-west-pat)
+
+If there is no matrix call for the area either reach out directly to any contacts you may have in regional or national team or raise to a member of SLT who can raise with other regions SLT.
+
+### In academia
+
+Carry out a literature review to understand if any work has been completed on the subject area before. There is formal guidance from the Knowledge Management team for how to undertake a literature review here: [Knowledge Management Service](https://nhs.sharepoint.com/sites/thehub/SitePages/Knowledge-Management.aspx)

@@ -1,0 +1,21 @@
+---
+title: "About"
+---
+
+Site developed to record best practice and ways of working for the South West Insights and Intelligence Team.
+
+About this site - built in quarto - git pages
+
+To update a page    
+
+Update local version
+
+Push update page to git
+
+Publish pages - quart publish gh-pages
+
+Contact details
+
+> Contributions are welcome or if you wish to contact the team
+> Email: [england.swinsightsandintelligence@nhs.net](mailto:england.swinsightsandintelligence@nhs.net)
+

@@ -1,0 +1,32 @@
+---
+title: "Final product and review"
+editor: visual
+---
+
+## Final products and review
+
+The final product should be checked that it meets the needs of the original request. This should be done via peer review and also checked with any main stakeholders.
+
+More detailed quality assurance is outlined in the QA process, but products to should meet the basic criteria of providing the information required, methods assured, code reviewed, outputs checked against other appropriate data sources and produced with use the of the style guide.
+
+Visualisations should be clear and focus on providing the insight rather than simply illustrating data. Distinction should be made between products that are made to provide information and those that are designed to provide insight.
+
+**Information Products:** should provide clear navigation of splits of data, if used to provide comparisons, effort should be made to reduce the number of traces on a graph, to ensure columns are ordered, appropriate types of visualisations are utilised. Robust statistical methods should be used to identify trends and outliers.
+
+**Report Products:** should focus on analysis and insight into the data. Visualisations should have purpose and be used to support insights. These reports should be kept targeted and linked to information products for further information. Report products should aim to provide recommendations and insights that led to action.
+
+**Hybrid Products:** it is possible to do both, with a clear summary that provides an overview as well as detail that can be drilled into. This type of product is very useful, but can be challenging to get the balance right.
+
+**Ad-hoc requests:** should focus on the insight required appropriate to the urgency and complexity of the task. Good practice should still be applied to any tables or visualisations provided and an appropriate level of QA carried out.
+
+## Review cycle
+
+Once a product is complete and has been signed off for production, a review date should be set with peers and stakeholders.
+
+This should check the product is being used, is fit for purpose or requires any updates.
+
+Reviews should be conducted at a an early stage and time between reviews extended over time as the product reaches full maturity.
+
+## Lessons Learned
+
+Key lessons learned should be docmented in the lessons learn log.  (To be updated)

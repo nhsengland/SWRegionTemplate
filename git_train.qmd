@@ -1,0 +1,82 @@
+---
+title: "Github Training"
+format:
+  html:
+    self-contained: true
+    standalone: true
+    number-sections: false
+editor: visual
+---
+
+GitHub is a cloud-based platform and ecosystem built on top of the Git version control system, serving as the world's largest hosting service for code. It allows us to store, manage, and track changes to our code repositories while facilitating seamless collaboration through features like pull requests, code reviews, and issue tracking. 
+
+GitHub is to be used as our primary area to save code.  In practice you would have a local copy of a folder with your work in and you would synchronise this with GitHub.  Thus if anyone wanted to use you code, they would download a version from GitHub onto their local machine.  
+
+Local github folders should be on personal drives and **not** sharepoint.  
+
+# Resources
+
+Here are a number of resources available for training in the use of Git, GitHub and Reproducible Analytical Pipelines.
+
+::: {.callout-note appearance="default" icon="true"}
+## Definitions
+
+**Git:** A distributed version control system used to track and manage code changes locally with features like branching and merging.
+
+**GitHub:** A web-based platform that hosts Git repositories and enables collaboration through pull requests, issues and team management.
+
+**RAP (Reproducible Analytical Pipelines):** is a set of principles and working practices that help you create faster, more robust, and more transparent analytical processes.
+:::
+
+## South East Team
+
+The South East Team have an excellent practical guide based on use of NHS England Tools.
+
+This is available here [https://nhsengland.github.io/se-da-github-guide/](https://nhsengland.github.io/se-da-github-guide/)
+
+## NHS RAP Introduction to git
+
+National RAP Community of Practice, this covers the use of Git commands, which is tool agnostic.
+
+[https://nhsdigital.github.io/rap-community-of-practice/training_resources/git/introduction-to-git/](https://nhsdigital.github.io/rap-community-of-practice/training_resources/git/introduction-to-git/)
+
+## Learning Hub
+
+Learn the basics of version control with Git, the world's most popular version control system. This course covers source control, distributed version control systems, and hands-on Git commands. This course has been linked to support competencies from the National Competency Framework.
+
+[https://learninghub.nhs.uk/resource/63354](https://learninghub.nhs.uk/resource/63354)
+
+## Setting up Git and GitHub
+
+Details on how to set up GitHub with GitHub Desktop. GitHub desktop allows a GUI interface for the use of GitHub. It is available on UDAL and can also be installed on local machines via the company portal. It provides a simple interface to manage most common Git tasks.
+
+[https://prototype-kit.service-manual.nhs.uk/guides/github/setup-github-desktop/](https://prototype-kit.service-manual.nhs.uk/guides/github/setup-github-desktop/)
+
+## Introduction to Git and GitHub (RStudio)
+
+An introduction to Git and using GitHub using RStudio as an IDE (integrated development environment) using the built in tools within RStudio and also with the packages {gert} and {usethis}. This allows you to use GitHub directly from R Studio without additional software or command line scipts.
+
+[https://www.strategyunitwm.nhs.uk/introduction-git-and-github-rstudio](https://www.strategyunitwm.nhs.uk/introduction-git-and-github-rstudio)
+
+## Microsoft accredited training
+
+If you wish to get a formal qualification, accredited training by Microsoft is accessible via your nhs.net email account. A number of courses are available at different levels but are all free via net.net
+
+The courses can be found here [https://learn.microsoft.com/en-us/training/github/](https://learn.microsoft.com/en-us/training/github/)
+
+## RAP Pages
+
+The community of practice webpages are here. These go into detail on how to turn processes into RAP compliant processes.
+
+[https://nhsdigital.github.io/rap-community-of-practice/](https://nhsdigital.github.io/rap-community-of-practice/)
+
+## Government guidance on RAP
+
+The government analysis function provides an extensive guide around open and reproducible analysis.
+
+[https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/](https://analysisfunction.civilservice.gov.uk/policy-store/reproducible-analytical-pipelines-strategy/)
+
+Some further simple guidelines to determine if code should be open (public) or closed (private).
+
+[https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed](
+https://www.gov.uk/government/publications/open-source-guidance/when-code-should-be-open-or-closed)

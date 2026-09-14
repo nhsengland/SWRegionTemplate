@@ -1,0 +1,27 @@
+---
+title: "Welcome"
+format:
+  html:
+    self-contained: true
+    standalone: true
+    number-sections: false
+editor: visual
+---
+
+<img src="logo.png" alt="Description" align="right" width="500"/>
+
+## SW I&I Working Practices Overview
+
+These pages are designed to describe the general principles and ways of work at how analytical projects are managed and developed within the team.
+
+It is recognised that not all projects are the same, this is a flexible framework that can be applied across all pieces of work and provide appropriate levels of assurance that the work is robust, accessible and of good quality.
+
+There are sections developed to support good practice across the entire analytical pipeline and the goal is to set ourselves as a gold standard for analytical practices and processes to support healthcare within the region.
+
+::: {.callout-tip appearance="default" icon="true"}
+## Web pages guidance
+
+Click the links to the left to the relevant section. A further set of bookmarks may appear on the right to help you navigate to the relevant section.
+:::
+
+> Contributions are welcome or if you wish to contact the team Email: [england.swinsightsandintelligence\@nhs.net](mailto:england.swinsightsandintelligence@nhs.net)

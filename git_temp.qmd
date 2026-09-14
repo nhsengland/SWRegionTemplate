@@ -1,0 +1,167 @@
+---
+title: "GitHub Template"
+format:
+  html:
+    self-contained: true
+    standalone: true
+    number-sections: false
+editor: visual
+---
+
+# SW I&I Github Template
+
+The template has been designed to help you document your work, provide some basic protection for data in the .gitignore file and contain standard licences and a basic open code checklist.
+
+The full completed QA log should also be saved here.  (Pending)
+
+::: {.callout-warning appearance="default" icon="true"}
+## Important
+
+Github is for sharing code and not data. It *is* good practice to share some dummy data so that someone else can run your analysis, but this needs to be carefully managed. As a default, most settings are in place to stop you from uploading data.
+
+If you do accidentally upload data, please notify the github maintainer [jonathanpearson\@nhs.net](mailto:jonathanpearson@nhs.net) as soon as you are aware. It is not enough to simply delete the data as github may still maintain a copy in history.
+:::
+
+## Location and guidance
+
+You can find a copy of the repository here [https://github.com/nhsengland/SWRegionTemplate](https://github.com/nhsengland/SWRegionTemplate)
+
+You will need to be a member of the NHS England organisation in order to use the team space. For information on how to join the NHS England organisation go to [https://github.com/nhsengland](https://github.com/nhsengland)
+
+::: {.callout-tip appearance="default" icon="true"}
+## Please note
+
+This page also contains some further guidelines, code of conduct and some principles of ways of working. It is recommended that you familiarise yourself with these.
+:::
+
+Once you are a member of the organisation, you will need to be added to the regional github team by the team maintainer.
+
+## Outline of the template
+
+::: {.callout-tip appearance="default" icon="true"}
+## Please note
+
+Each of the .md files can be opened and edited in any text editor. It is also possible to edit them directly on the github webite. They are markdown files and you can include diagrams, pictures, tables and various formatting.
+
+Further details can be found here[ https://www.markdownguide.org/]( https://www.markdownguide.org/)
+:::
+
+### .gitignore
+
+The git ignore is a file that contains a list of file types, not to upload to github. The rationale for this is because these filetypes contain data and not code.
+
+Examples of file types included in the .gitignore are
+
+.csv, .pptx, xlsx, .rds, .RData, .egg, .env, .history
+
+If you do wish to upload one of these file types, please ensure it only contains synthetic data and manually change the .ignore to allow a specified file.
+
+Further detail on how to do this can be found at [https://docs.github.com/en/get-started/git-basics/ignoring-files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
+
+### CHANGELOG.md
+
+This is an area where you can document any major changes to the code or methodology. It is good practice to date and refer to any fixes made in case code needs to be rolled back to a previous version.
+
+### CODE_OF_CONDUCT.md
+
+This is a generic file included to give a general code of conduct over use of the code. There should be no reason to change this file.
+
+### CONTRIBUTING.md
+
+This is another generic file to be included in each repository. It includes a basic overview of how people can make suggestions or raise issues with the code.
+
+### LICENCE
+
+This sets the default licence as open source MIT licence. This means your code is open and free to use by anyone to use, copy, modify, publish or distribute without limitation.
+
+This licence should cover most work, unless there is a specific reason otherwise. This licence does have leagal ramifications.
+
+For more information about licences go to [https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
+
+### OPEN_CODE_CHECKLIST.md
+
+This is a basic quality assurance template for published code. This is in addition to other quality assurance that has been conducted on your code, and covers specific issues around publishing your code.
+
+It is split between mandatory and optional recommendations. Please enure all mandatory sections are complied with.
+
+### README.md
+
+Second to your code this is the most important part of your code documentation.
+
+It is designed for you to complete each section to include a standardised way of documentmenting, what the code, is, what it is for, and any dependancies.
+
+The README specifies report in a number of secions but th
+
+#### About the report
+
+This is a place to give a brief overview of what the code or report is.
+
+::: {.callout-tip appearance="default" icon="true"}
+## Please note
+
+If the report is underdevelopment, it is good practice to include the experimental badge, so that it is not considered a completed workflow.
+:::
+
+#### Report/Code Overview
+
+**Status:** Active / Retired / In development
+
+**Subject area:** Specific subject area
+
+**Purpose:** Decribe what the report does
+
+**Audience:** Decribe who the report is for
+
+**Frequency:** How often is the report refreshed
+
+**Output type:** Slides, powerBI, tableau, markdown, excel, PDF, etc
+
+**Distribution:** How is the report shared
+
+**Quality assurance:** When have code review and output QA checks been undertaken
+
+#### Built With
+
+List software used to create project.
+
+List main packages (and versions) used to build project.
+
+#### Getting Started
+
+This include basic details on how to clone the report and any other major technical support or requirements.
+
+#### Outputs
+
+Description of output, ie format, dataset etc
+
+#### Datasets
+
+List of datasets used. Include URLs, UDAL references or any other pertinant details.
+
+#### Dependancies or parent code
+
+Links to any other code depedancies that are used within this code
+
+#### Dependants or child code
+
+Links to any other code dependants that use this code
+
+#### Test data
+
+Link to any synthetic or test data that can be used to run a verion of this project.
+
+Include instructions of how to load data rather than run SQL results in the project.
+
+Include a dummy .csv if possible and include an option in the workflow to utilise this.
+
+#### Contributing
+
+A standard section detailing how to contribute to the project.
+
+#### License
+
+Unless stated otherwise, the codebase is released under the MIT Licence. This covers both the codebase and any sample code in the documentation.
+
+#### Contact
+
+Contact detail of the team or indivudal repsonsonsible for the project.

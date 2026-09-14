@@ -1,0 +1,75 @@
+---
+title: "Defining the Analytical Question"
+format:
+  html:
+    self-contained: true
+    standalone: true
+    number-sections: false
+editor: visual
+---
+
+## Understand the context and purpose
+
+Talk with the stakeholder to get a clear picture of the problem they’re trying to solve or the question they need answered.
+
+Pin down the underlying issue the analysis should address, and the decisions or actions the findings will support.
+
+Build an understanding of the wider context — objectives, pressures, risks, and what success would look like in terms of solving the problem or answering the question.
+
+> **Outcome:** A shared understanding of why the work is needed and how it will be used.
+
+## Define the analytical question
+
+Turn the request into a clear, specific analytical question.
+
+Agree what’s in scope and out of scope:
+
+- **Who the audience for the analysis is?**: Understand how comfortable they are with analytical outputs; difference audiences will require their work to be tailored differently. Eg an analyst will have different requirements than a clinician or executive.
+
+- **Time period:** Trend over time, or latest month, last year, etc.
+
+- **Geography:** PCN, Provider, ICB, Region etc.
+
+- **Population:** Children, adults, specific cohorts.
+
+Set boundaries and clear parameters to keep the work focused and avoids scope creep.
+
+> **Outcome:** A well‑defined analytical question with an agreed scope.
+
+## Align on constraints and expectations
+
+Discuss the practicalities:
+
+- **Data availability and granularity:** It’s important to highlight if you will need to request access to data sets and how long this may take. It is also important to highlight if there are any restraints on data sharing that would mean the outputs can only be shared to certain people or in aggregated forms. Be clear if you need time to check what data exists.
+
+- **Any known data quality issues:** discuss the limitations this will have on the work you are able to deliver, or the interpretation and output results.
+
+- **What the final output should look like (report, dashboard, slide deck):** Confirm who will be using the outputs and for what purpose.
+
+- **Deadlines:** agree any interim milestones and the timescales, and the final completed delivery deadline.
+
+> **Outcome:** Realistic expectations that match the available data and delivery constraints.
+
+## Check understanding through playback
+
+Summarise the problem, the analytical question, the scope, timelines, and your proposed approach.
+
+Confirm with stakeholders that you’ve interpreted everything correctly before moving ahead.
+
+> **Outcome:** Confidence that everyone is aligned before work begins.
+
+## Keep engagement going
+
+Stay in touch throughout the work — regular check‑ins will help surface new information or constraints early.
+
+Highlight any risks to delivery, for example if other more urgent tasks come in. Or if access to data is taking longer than anticipated.
+
+Be prepared to refine the question or approach as things evolve.
+
+Treat engagement as an ongoing collaboration, not a one-off handover.
+
+> **Outcome:** Continued alignment and reduced risk of rework.
+
+## Utilise the skills of the team
+
+Be prepared to ask for advice or support from wider team members, draw upon other peoples knowledge and skills.

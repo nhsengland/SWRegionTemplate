@@ -1,0 +1,22 @@
+---
+title: "QA Output and Review Cycle"
+editor: visual
+---
+
+> **Awaiting document from QA working group**
+
+*Final QA of product to see if fit for purpose*
+
+*Does it provide information / insight as specified in scope*
+
+*Are visualisations and tables clear and of quality*
+
+*What paperwork needs to assure process*
+
+*Where is it saved?*
+
+*Set up a review*
+
+*How is review recorded and implemented?*
+
+*Any lessons learned added to log*

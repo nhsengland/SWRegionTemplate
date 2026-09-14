@@ -1,0 +1,32 @@
+---
+title: "Overview"
+format:
+  html:
+    self-contained: true
+    standalone: true
+    number-sections: false
+editor: visual
+---
+
+# An overview of the analytical process
+
+**HOLDING CHART**
+
+*This chart is simply a placeholder. Real flowchart will come once analyical process document has been completed.*
+
+```{mermaid}
+flowchart TD
+  A(Starting the Analytical Process) --> B(QA Data and Results)
+  A --> C[Defining the anlytical question]
+  A --> DStart of QA Process]
+  B -----> E(Final product and review)
+  B --> G[Coding Principles]
+  G --> H[GitHub Training]
+  G --> I[QA Code Checklist]
+  H --> J[Github Template]
+  E --> K[QA Output and Review]
+  K --> L(Review)
+
+
+  
+```

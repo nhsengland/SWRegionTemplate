@@ -1,0 +1,33 @@
+---
+title: "Coding principles continued"
+format:
+  html:
+    self-contained: true
+    standalone: true
+    number-sections: false
+    grid:
+        body-width: 1500px 
+editor: visual
+---
+
+This process highlights best practice but it is understood that not all pieces of analysis would fall under this methodology.  Where possible we should be using the best and sustainable practices, that are reusable, open to audit and transparent.
+
+The underlying principle is if someone has developed some code to create a forecast, then this code should be able to be shifted to another dataset.  If there is code to calculate a KPI, that same code should be utilised across various products so that the same version of the truth is used.  
+
+Best practice for reproducible analytic pipelines means developing a modular approach to a codebase. A truly effective piece of modular code should satisfy these three principles.
+
+- **Abstraction:** Code should operate as an independent unit, connected only through well-defined interfaces. In practice, it means that repo documentation is kept up to date and clearly logged when a piece of code is utilised elsewhere. This means that base **Parent** code is kept independent and there are documented links where this code is utilised in other **Child** products.
+
+- **Encapsulation** Each code keeps its data and implementation details private, exposing only what is necessary for the program to function. This prevents your program from forming unexpected dependencies between other pieces of code that create fragile, unmaintainable code. This main principle is to ensure that “hardcoding” is kept to a minimum and if absolutely necessary, the rationale is documented.
+
+- **Cohesion** Every element within a code should work together toward a single purpose. A single piece of code is not meant to perform all functions for your analysis; code chunks should excel at one task rather than attempting to do everything mediocrely.
+
+# Implementing Modular Design
+
+Remember modular design is not about following rigid rules. Instead, it is about creating a system that is easier to understand, modify, and improve. Make a plan before you start, as once you start coding it is significantly easier to modify a framework than it is to start from scratch. If you do not know where to start, focus on making a code that is easy to read rather than one that is easy to write. The extra effort is worth it.
+
+Think about the stages of your analytical pipeline. Break things down into, data ingestion, wrangling, visualisation and reporting. Consider if a process that you have built at the data wrangling stage may be reused in a different report or reflect at how visualisation methods could be more standardised and follow best practice.
+
+# Conclusion
+
+Modular programming is not just a nice skill to have, it is a fundamental practice that separates professional grade analysts from amateur projects. By embracing abstraction, encapsulation, and cohesion in your code, we will not just be writing analysis in isolation, we will be developing a robust code base that can grow and serve users for years to come.  Or in short, saves everyone from having to reinvent the wheel. 

@@ -1,0 +1,128 @@
+---
+title: "Coding Principles"
+format:
+  html:
+    self-contained: true
+    standalone: true
+    number-sections: false
+editor: visual
+---
+
+# Starting principles
+
+The combination of Open Code and Reproducible Analytical Pipelines (RAP) represents a shift from traditional "black box" analysis to a transparent, automated, and high-quality way of working with health data.
+
+Github should underpin each and every piece of work so that processes, code and documentation are stored in a consistent way. A piece of work with appropriate levels of description can then be searched for in one place. It would also be in one place so that if old old piece of code needs to repeated or built upon, there is a single place to search.
+
+Github saves projects in a '**repository'** or often shortened to '**repo'**. A repo may contain sub folders and allows for multiple document types to be saved.
+
+::: {.callout-important appearance="default" icon="true"}
+## Important
+
+It is a key principle that real data should not be saved in a repo.
+
+However, it is good practice to include dummy data so that anyone wishing to replicate your work has some test data to work with.
+:::
+
+The use of the SW template, ensures that all repositories are documented in a standard fashion.
+
+It is recognised that not all work requires a full and detailed development cycle, it may be a simple *ad hoc* request, however it is still import to document the process and save code, in case of additional questions or validation or scrutiny.
+
+Github should be used from the outset of a project, to document code and processes, branching can be used for development and version control(see Github Training). Repos should be synced regularly.
+
+## Rationale
+
+Think of a piece of analysis being built with lego blocks. Rather than having to build the same thing repeatedly, the key principle is to have standardised blocks of code that can be reused or easily adapted. Where metrics are reused across several reports, there is a single version of the truth and any changes need to be made source code and then replicated across any reports that use this code.
+
+This process highlights best practice but it is understood that not all pieces of analysis would fall under this methodology. Where possible we should be using the best and sustainable practices, that are reusable, open to audit and transparent.
+
+The underlying principle is if someone has developed some code to create a forecast, then this code should be able to be shifted to another dataset. If there is code to calculate a KPI, that same code should be utilised across various products so that the same version of the truth is used.
+
+The technical benefits of these practices are the gold standard for NHS the *South West Intelligence and Insights Team*. It is acknowledged that certain time sensitive pieces may not have the complete suite of principles applied, where possible, the highest appropriate standards are met and that an appropriate level of QA has been undertaken before release or publication.
+
+# Reproducibility
+
+It should not be necessary to save data within historical reports. Reports should be distributed as required and **SharePoint should not be used to store data or code**.
+
+::: {.callout-important appearance="default" icon="true"}
+## Important
+
+Running code from Sharepoint is against NHS England policy. SharePoint creates history of files and there is a hard upper limited imposed by Microsoft for folder size. If the limit is reached, then it can cause issues with OneDrive and potential corruption of files.
+:::
+
+Pipelines should be written to allow historical reports to be run retrospectively if required, and historical results replicated.
+
+# Code primacy and version control
+
+Main code storage is on Github. Local repositories should be developed within personal drives and not replicated on SharePoint.
+
+::: {.callout-important appearance="default" icon="true"}
+## Please note
+
+Code, data and outputs *should not* be stored on SharePoint.
+
+Code should be saved on personal drives and linked to GitHub Data should not be saved locally beyond its use. Outputs should be available via business intelligence or via futures.
+:::
+
+Old reports and data should not be saved on SharePoint, Drives or Futures as they should be reproducible.
+
+Version control is best managed within GitHub.
+
+## Use of SW Git Template
+
+The local SW regional template is a basis any analytical work. It contains a basic structure of laying out your code. The ReadMe also has areas to describe what datasets are utilised, who the report is for, the frequency and any links to ‘*Child*’ or ‘*Parent*’ code.
+
+**Parent**: An example would be code that calculated the number of A&E attendances. This code would be the core code that would be reutilised in any report or product that used A&E attendances.
+
+**Child**: A piece of code for an A&E report that utilises the *Parent* code. For example a dashboard that showed A&E attendances.
+
+More details on the SW Git template can be found here: [SW Git template Guidance](git_temp.qmd)
+
+::: {.callout-warning appearance="default" icon="true"}
+## Please note
+
+The SW Template should be 'forked' to create a consistent project view.
+:::
+
+The key benefits of taking this approach are:
+
+### Efficiency
+
+- **Capacity Release:** Analysts are freed from "copy-paste" drudgery to focus on high-value analytical insights and strategic modelling. Core code is written once and shared across other reports.\
+- **Speed:** Dashboards and reports become trivial to maintain once the pipeline is built. Changes in base *Parent* code are changed in a single place and related *Child* reports are changed based on the source *Parent* code.
+
+### Best Practice for Accuracy
+
+- **Self-Correction:** Best practice code should include uses automated unit tests to check data for anomalies (e.g., "Is a patient's age listed as 250?"). Good tests can reduce manual checking and identify issues at an earlier stage in a pipeline.
+
+- **Version Control:** Using Git allows you to "time travel" to see exactly what logic produced a specific figure three years ago and to roll back in case of issue.
+
+### Peer Review, Collaboration and Quality Assurance
+
+- **Coding standards:** A separate set of coding standards is included as an annex <here>
+
+- **Open code:** Allows a ‘second pair of eyes’. This is not just around the code itself but the methodology that the code utilised for the analysis. When we statistics on waiting lists or vaccination rates, providing the underlying code allows stakeholders to verify the methodology.
+
+- **The "Goldacre Report"** Legacy: Following the 2022 Goldacre Review, the NHS moved toward "Better, Broader, Safer" data use. This strategy ensures that any analyst can scrutinise the logic behind a health metric, model or KPI. We are able to transparent to show workings and methodology behind a piece of analysis.
+
+- **Knowledge Transfer:** If an analyst leaves the team, their replacement can read the documented code rather than trying to decipher a complex, inherited spreadsheet or process. This QA process should also allow challenge on pieces of unusual code and allow transfer of skills across the team around a method or process.
+
+- **Sharing across regions:** Code and analysis should not be hardcoded to work for only the region. If a piece of work has value to us, it will also have value to other regions or providers. We need to develop a way of working to support cross regional collaboration and sharing of tools and analysis.
+
+Best practice for reproducible analytic pipelines means developing a modular approach to a codebase. A truly effective piece of modular code should satisfy these three principles.
+
+- **Abstraction:** Code should operate as an independent unit, connected only through well-defined interfaces. In practice, it means that repo documentation is kept up to date and clearly logged when a piece of code is utilised elsewhere. This means that base **Parent** code is kept independent and there are documented links where this code is utilised in other **Child** products.
+
+- **Encapsulation** Each code keeps its data and implementation details private, exposing only what is necessary for the program to function. This prevents your program from forming unexpected dependencies between other pieces of code that create fragile, unmaintainable code. This main principle is to ensure that “hardcoding” is kept to a minimum and if absolutely necessary, the rationale is documented.
+
+- **Cohesion** Every element within a code should work together toward a single purpose. A single piece of code is not meant to perform all functions for your analysis; code chunks should excel at one task rather than attempting to do everything mediocrity.
+
+# Implementing Modular Design
+
+Remember modular design is not about following rigid rules. Instead, it is about creating a system that is easier to understand, modify, and improve. Make a plan before you start, as once you start coding it is significantly easier to modify a framework than it is to start from scratch. If you do not know where to start, focus on making a code that is easy to read rather than one that is easy to write. The extra effort is worth it.
+
+Think about the stages of your analytical pipeline. Break things down into, data ingestion, wrangling, visualisation and reporting. Consider if a process that you have built at the data wrangling stage may be reused in a different report or reflect at how visualisation methods could be more standardised and follow best practice.
+
+# Conclusion
+
+Modular programming is not just a nice skill to have, it is a fundamental practice that separates professional grade analysts from amateur projects. By embracing abstraction, encapsulation, and cohesion in your code, we will not just be writing analysis in isolation, we will be developing a robust code base that can grow and serve users for years to come.

@@ -1,0 +1,109 @@
+---
+title: "Providing Insights from analysis and data"
+editor: visual
+---
+
+
+> **Aim:** To deliver high-quality, consistent insights that drive decision-making, while moving away from reactive reporting workflows.
+
+## Overarching Principles
+
+- **Mandatory QA:** Quality Assurance is continuous. Peer review and data validation must occur prior to any interpretation or final delivery to ensure statistical and output integrity.
+
+- **Methodological Standards:** All analysis should align with appropriate standards such as NHSE 'Making Data Count' (SPC), standardising rates by populations when comparing ICBs, applying seasonal adjustments and NHS Data Model & Dictionary standards to ensure a single version of the truth etc.
+
+- **Signal over Noise:** Focus entirely on actionable insights (e.g., Special Cause Variation) rather than describing "Common Cause" noise or providing a "data tour." A report or analysis should be a call to action, and idealiy provide recommendations for enquiry.
+
+- **Referential Integrity:** This process must be used in conjunction with the [Analytical Product Design Guide](https://nhsengland.github.io/analytical-data-style-guide-SW/reporting_corecomponents/) and 'Defining the Analytical Question'.
+
+## Phase 1: Framing & Pre-Requisites
+
+Before any data work begins, analysts must follow the steps outlined in the document: "Defining the Analytical Question"
+
+- **Key Requirements:** Understand the context, pin down the underlying issue, and identify the specific audience literacy level.
+
+- **Request Categorisation:** Use the Strategic, Tactical, or Operational *Example Decision Table* as a guide to define the "altitude" of the request. This ensures the chosen methodology and delivery frequency (e.g., real-time, monthly, adhoc) match the decision-maker’s needs.
+
+- **Playback:** Ensure a summary of the problem, scope, and timelines is played back to the stakeholder to confirm alignment before proceeding.
+
+**Example Decision Table**
+
+| Type of analysis | Primary goal | Analytic Focus | NHS Framework |
+|------------------|------------------|------------------|------------------|
+| Strategic | Sustainability & Policy | Scenario Modelling | Long Term Plan / ICB Strategy |
+| Tactical | Efficiency & Targets | Making Data Count (SPC) | Interactive Dashboard |
+| Operational | Safety & Patient Flow | Exception Spotting | Daily SitReps / Safety Huddles |
+
+## Phase 2: The Core Analysis & Insight
+
+Data extraction, validation, and preparation should be completed prior to beginning Phase 2. This undergo an appropriate quality assurance process.
+
+### 1. Analytical Exploration
+
+Move beyond descriptive data (what happened) into diagnostic and predictive analysis (why it happened and what is likely to happen next).
+
+Where a report is descriptive, ensure outliers and trends are identified.
+
+- **Master the Narrative:** Adhere to NHSE 'Making Data Count' standards. Explicitly focus the narrative on Special Cause Variation (e.g. points outside control limits or runs of seven) rather than narrating "Common Cause" noise.
+
+- **Hightlight outliers:** Use the report to highlight areas for action or where a metric is an outlier. Use appropriate statistical methodology to identify outliers rather than ranks or size comparisons.
+
+::: {.callout-tip appearance="default" icon="true"}
+## Please note
+
+The 'Key Point' Rule: Avoid describing every data point. Highlight only statistically significant exceptions and drivers.
+
+The key purpose of any chart should be to be to provide insight, not merely illustrate the data.
+:::
+
+- **Deep-Dive Methodology (Root Cause Analysis):** Use [Driver Trees](https://www.nhselect.nhs.uk/resources/5966/Driver-diagram-template) or the "[Five Whys](https://www.england.nhs.uk/improvement-hub/wp-content/uploads/sites/44/2015/08/learning-handbook-five-whys.pdf)" to move past the first obvious correlation and identify the root cause.
+
+- **Bias Check:** Actively test alternative hypotheses. Ask: "What else could explain this trend?" to avoid confirmation bias.
+
+- **Contextual Validation:** Triangulate local findings using the NHS Model Health System or GIRFT data frameworks. Determine if an exception is unique to the service or mirrors a wider national trend.
+
+- **Advanced Modelling:** Depending on the "altitude" of the question (refer to the *Example Decision Table*), apply Forecasting, Trend Analysis, Segmentation, or Demand and Capacity Modelling to provide a predictive view of future requirements.
+
+- **Provide insight:** Understand what the stakeholder’s decisions and trigger points are. A dashboard should be like a car and tell you immediately that you have an oil pressure problem. The front end does not have to show everything.
+
+- **Call to action:** Understand from stakeholder what they are going to do with the information and what decisions it is going to influence. A good piece of analysis should inform a call to action.
+
+### 2. Insight & Recommendation Generation
+
+Translate the analytical findings into meaningful operational advice and decision support. Address the "So what?" and "Now what?".
+
+Ensure your communication of the insights is tailored to the audience. Consider their analytical knowledge and expertise, the level of explanation may differ depending on who the audience is.
+
+- **Context & Caveats:** Explicitly state the strengths of the analytical approach, any data quality (DQ) issues, and the limitations of the data. Suggest further work if required.
+
+- **Insight Structure:**\
+  -- **The Issue:** A brief reminder of the analytical question.\
+  -- **The Evidence:** What the data reveals (what is happening and why).\
+  -- **The Impact:** Why it matters (what happens if nothing changes).\
+  -- **Recommendations:** Clear options with estimated impacts, risks, and resource implications. Consider a "Do Nothing / Business as Usual" baseline option so the decision-maker has a clear point of comparison or create a synthetic control.
+
+## Phase 3: Delivery & Evaluation
+
+The construction and styling of all outputs must strictly follow the [Analytical Product Design Guide](https://nhsengland.github.io/analytical-data-style-guide-SW/reporting_corecomponents/).
+
+- **Design Principles:**\
+  -- **Narrative Principles:** Lead with the insight, not the data. Keep text concise and action-oriented.\
+  -- **Quality over quantity:** Keep heavy methodology or data tables in a separate technical appendix.
+
+- **Quality assurance:**\
+  -- **Results:** Have data results checked for accuracy by peer\
+  -- **Code:** Have code checked by peer and follow code checklist\
+  -- **Outputs:** Have visualisation and narrative checked for clarity by peer (Refer to team QA standards)
+
+## Phase 4: Feedback & Impact
+
+- **Review:** Close the loop with the stakeholder to evaluate success and refine future work.
+
+- **Key Questions:** Was the insight used? What decision was made? Did the intervention work?
+
+- **Sustainability & Decommissioning:** Agree on a "Review Date" or a specific "Exit Strategy" for the product.\
+  -- If the product is project-specific, define the date it will be taken offline.\
+  -- If the product is ongoing, schedule a 6-month usage audit to ensure it is still driving action.\
+  -- If usage has ceased, proactively decommission the product to prevent ineffective legacy products.
+
+- **Output:** Entry into the team's Impact Log and lessons learnt. Ensure the log categorises how the insight added value (e.g., identifying outliers, improved patient safety, time saved, resource savings) to easily demonstrate the team's impact. *(To be developed.)*

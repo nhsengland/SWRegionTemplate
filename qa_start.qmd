@@ -1,0 +1,14 @@
+---
+title: "Start of QA Process"
+editor: visual
+---
+
+> **Awaiting document from QA working group**
+
+*Detail here on tiering*
+
+*What is required to QA and assure process, method, potential data sources, agreed timelines, scope etc*
+
+*What documentation is required?*
+
+*Where docs to be saved?*

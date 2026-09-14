@@ -1,0 +1,80 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+
+website:
+  title: "Sections"
+  # google-analytics: "G-5CB82FGFDJ"
+  site-url: "https://github.com/nhsengland/SW_ways_of_working"
+  sidebar:
+    foreground: "black"
+    # background: "#EBF5FF"
+    background: "#005eb833"
+    style: "docked"
+    search: true
+    contents:
+      - section: "Analytical Process"
+        contents:
+          - index.qmd
+          - start_process.qmd
+          - analytical_question.qmd
+          - qa_start.qmd
+          - dq_issues.qmd
+          - prov_insights.qmd
+          - qa_data.qmd
+          - review.qmd
+          - qa_output.qmd
+      - section: "Coding standards"
+        contents:      
+          - code_prin_overview.qmd
+          - git_train.qmd
+          - Code_QA.qmd
+          - git_temp.qmd
+      - section: "About"
+        contents:
+          - about.qmd
+          - accessibility.qmd
+          - ts-and-cs.qmd
+          - LICENCE.qmd
+          - contact.qmd
+    tools: 
+      - icon: github
+        menu: 
+          - text: Source Code
+            href: https://github.com/nhsengland/SW_ways_of_working
+          - text: Report a bug / suggestions
+            href: https://github.com/nhsengland/SW_ways_of_working/issues
+
+
+  page-footer:
+      left: >-
+       South West Insights and Intelligence &#8729; Made with [![Quarto](https://quarto.org/quarto.png){fig-alt="Quarto logo blue round circle with a cross within the circumference" width=65px}](https://quarto.org/)
+  # The now year is from a Quarto extension https://www.garrickadenbuie.com/blog/quarto-now/
+      center: 
+         Make a suggestion / Report a bug <a href="https://github.com/nhsengland/SW_ways_of_working" aria-label="Go to SW I&I GitHub" title="github" target="_blank" rel="noopener">
+          <i class="link-dark me-1" aria-hidden="true"></i> {{< fa brands github >}}</a>
+  
+      right:
+        - text: "Accessibility"
+          href: accessibility.qmd
+          aria-label: Accessibility Commitment
+        - text: "Terms and Conditions"
+          href: ts-and-cs.qmd
+          aria-label: Terms and Conditions
+        - text: "Contact"
+          href: contact.qmd
+          aria-label: Contacts on About Page
+        - text: "Licence"
+          href: LICENCE.qmd
+          aria-label: Licence Details
+        
+    
+format:
+  html:
+    toc: true
+    css: styles.css
+
+execute:
+  freeze: auto

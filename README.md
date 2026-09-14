@@ -1,44 +1,38 @@
-# {REPORT NAME}
+# Ways of working guidance 
 ## NHS England South West Insights and Intelligence
 
 ### About the Report/Code
 
-{ADD EXPERIMENTAL STATUS BADGE IF PROJECT IS IN DEVELOPMENT}
-[![status: experimental](https://github.com/GIScience/badges/raw/master/status/experimental.svg)](https://github.com/GIScience/badges#experimental)
+This repository holds code for the ways of working guidance webpages.
 
-This repository holds code for the {REPORT NAME} {SHORT DESCRIPTION}
+[https://nhsengland.github.io/SW_ways_of_working/](https://nhsengland.github.io/SW_ways_of_working/)
 
-_**Note:** Only public or fake data are shared in this repository._
 
 ### Report/Code Overview
 
-**Status:** Active / Retired / In development
+**Status:** Active 
 
-**Subject area:** Specific subject area
+**Subject area:** Team development
 
-**Purpose:** Decribe what the report does
+**Purpose:** Overview of best practice for analytical processes within team
 
-**Audience:** Decribe who the report is for
+**Audience:** For use internally within the team
 
-**Frequency:** How often is the report refreshed
+**Frequency:** As required
 
-**Output type:** Slides, powerBI, tableau, markdown, excel, PDF, etc
+**Output type:** Github pages
 
-**Distribution:** How is the report shared
+**Distribution:** Pages have URL and is public
 
-**Quality assurance:** When have code review and output QA checks been undertaken
+**Quality assurance:** Pages are under development
 
 ### Built With
 
-{LIST SOFTWARE USED TO CREATE PROJECT}
-
 [R Studio](http://www.rstudio.com/.)  
 [R Statistical Software](https://www.R-project.org/.)  
-[SQL SSMS](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)  
-[!Python v3.8](https://www.python.org/downloads/release/python-380/)  
 
-- {LIST OF MAIN PACKAGE VERSIONS}
-
+- usethis
+- quarto
 
 ### Getting Started
 
@@ -48,29 +42,26 @@ To get a local copy up and running follow these simple steps.
 
 To clone the repo:
 
-`git clone https://github.com/nhsx/{REPO NAME}`
+`git clone` [https://github.com/nhsengland/SW_ways_of_working](https://github.com/nhsengland/SW_ways_of_working)
 
-{ADDITIONAL TECHNICAL SUPPORT AND NEEDS} 
 
 ### Usage
-{DESCRIPTION OF CODE}
-{DESCRIPTION OF PROCESS AND TECHNIQUES UTILISED}
-{METHODOLOGY USED}
+Site built in markdown and quarto
 
 #### Outputs
-{LIST AND DESCRIPTION OF OUTPUTS}
+Github webpages
 
 #### Datasets
-{DESCRIPTION AND LINKS TO DATASETS}
+No datasets are used.
 
 ### Dependancies or parent code
-{Links to any other code depedancies that are used within this code}
+None
 
 ### Dependants or child code
-{Links to any other code dependants that use this code}
+None
 
 ### Test data
-{LINK TO FAKE DATA TO SUPPORT INITAIL CODE RUNS}
+Not applicable
 
 ### Contributing
 

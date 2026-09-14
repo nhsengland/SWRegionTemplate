@@ -1,0 +1,16 @@
+---
+title: "QA Data and Results"
+editor: visual
+---
+
+> **Awaiting document from QA working group**
+
+*Detail on how to check numbers vs national / other published sources*
+
+*Check on calculations / statistical methods etc*
+
+*What to do if data quality issue is identified (link to DQ page)?*
+
+*What paperwork needs to assure process?*
+
+*Where is it saved where?*
