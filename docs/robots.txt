@@ -1,1 +1,0 @@
-Sitemap: https://github.com/nhsengland/SW_ways_of_working/sitemap.xml
